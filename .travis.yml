@@ -12,6 +12,7 @@ matrix:
   fast_finish: true
   allow_failures:
     - php: hhvm-nightly
+    - php: 7
 
 # faster builds on new travis setup not using sudo
 sudo: false
